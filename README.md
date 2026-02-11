@@ -6,6 +6,16 @@ A C# console application that analyzes CitiBike trip data and correlates it with
 
 The project processes large datasets of bike trips (CSV) and weather logs to perform statistical analysis using LINQ. It focuses on identifying high-traffic routes, station imbalances, and the impact of environmental factors (rain, wind, cloud cover) on different user groups (Commuters vs. Tourists).
 
+## Data Sources
+
+The analysis is based on two specific CSV datasets:
+
+1.  **CitiBike Trip Data (June 2022)**
+    * File: `JC-202206-citibike-tripdata.csv`
+
+2.  **Historical Weather Data (2016 - 2022)**
+    * File: `NYC_Weather_2016_2022.csv`
+
 ## Key Features
 
 * **Route Analytics:** Identifies most popular routes and recreational loops.
